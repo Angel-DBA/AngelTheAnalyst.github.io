@@ -43,28 +43,81 @@
 						</ul>
 					</nav>
 
-				<!-- Main -->
-					<div id="main">
+				
+            <!-- Main Content -->
+            <div id="main">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-								
-									<h2><a href="https://github.com/Angel-DBA/Portfolio-Project/blob/main/Data%20Cleaning.sql">Data Cleaning in SQL<br /></a></h2>
-									<p>In this project we take raw housing data and transform it in SQL Server to make it more usable for analysis.</p>
-								</header>
-								<a href="https://github.com/Angel-DBA/Portfolio-Project/blob/main/Data%20Cleaning.sql" class="image main"><img src="images/hahaha.jpeg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/Angel-DBA/Portfolio-Project/blob/main/Data%20Cleaning.sql" class="button large">View Project</a></li>
-								</ul>
-							</article>
+                <!-- Featured Project: Data Visualization -->
+                <article class="post featured" >
+                    <header class="major" style="style="text-align: center;">
+                        <h2><a href="#">Data Visualization<br /></a></h2>
+                    </header>
+                    <p>User Story - HR Dashboard</p>
+                    <p>As an HR manager, I want a comprehensive dashboard to analyze human resources data, providing both summary views for high-level insights and detailed employee records for in-depth analysis.</p>
+                    <ul class="actions special">
+                        <li><h2><a href="#">View Project</a></h2></li>
+                    </ul>
 
-						<!-- Posts -->
-							<section class="posts">
+                    <!-- Tableau Visualization Embed -->
+                    <div class='tableauPlaceholder' id='viz1728550568759' style='position: relative; margin: 0 auto; display: inline-block;'>
+                        <noscript>
+                            <a href='#'><img alt='HR | Summary' src='https://public.tableau.com/static/images/Hu/HumanResourceDashboard_17285486170640/HRSummary/1_rss.png' style='border: none' /></a>
+                        </noscript>
+                        <object class='tableauViz' style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='HumanResourceDashboard_17285486170640/HRSummary' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https://public.tableau.com/static/images/Hu/HumanResourceDashboard_17285486170640/HRSummary/1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en-US' />
+                        </object>
+                    </div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1728550568759');
+                        var vizElement = divElement.getElementsByTagName('object')[0];
+                        if (divElement.offsetWidth > 800) {
+                            vizElement.style.width='1400px';
+                            vizElement.style.height='827px';
+                        } else if (divElement.offsetWidth > 500) {
+                            vizElement.style.width='1400px';
+                            vizElement.style.height='827px';
+                        } else {
+                            vizElement.style.width='100%';
+                            vizElement.style.height='4577px';
+                        }
+                        var scriptElement = document.createElement('script');
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                    </script>
+                </article>
+
+                <!-- Project List -->
+                <section class="posts">
+
+                    <!-- Project 1: Data Cleaning in SQL -->
+                    <article class="post featured">
+                        <header class="major">
+                            <h2><a href="https://github.com/Angel-DBA/Portfolio-Project/blob/main/Data%20Cleaning.sql">Data Cleaning in SQL<br /></a></h2>
+                            <p>In this project, we take raw housing data and transform it in SQL Server to make it more usable for analysis.</p>
+                        </header>
+                        <a href="https://github.com/Angel-DBA/Portfolio-Project/blob/main/Data%20Cleaning.sql" class="image main"><img src="images/hahaha.jpeg" alt="" /></a>
+                        <ul class="actions special">
+                            <li><a href="https://github.com/Angel-DBA/Portfolio-Project/blob/main/Data%20Cleaning.sql" class="button large">View Project</a></li>
+                        </ul>
+                    </article>
+		
+					<section class="posts">
 								<article>
 									<header>
 										
-										<h2><a href="https://github.com/Angel-DBA/Portfolio-Project/blob/main/Data%20Exploration.sql">Data Exploration in SQL<br />
+										<h2><a href="https://github.com/Angel-DBA/Portfolio-Project/blob/main/Data%20Exploration.sql">Data Analysis in SQL<br />
 										</a></h2>
 									</header>
 									<a href="https://github.com/Angel-DBA/Portfolio-Project/blob/main/Data%20Exploration.sql" class="image fit"><img src="images/covid19.jpeg" alt="" /></a>
@@ -73,18 +126,7 @@
 										<li><a href="https://github.com/Angel-DBA/Portfolio-Project/blob/main/Data%20Exploration.sql" class="button">View Project</a></li>
 									</ul>
 								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">tableau Dashboards<br />
-										</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/tableau proj.jpeg" alt="" /></a>
-									<p>Tableau Dashboards for projects on COVID 19.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">View Project</a></li>
-									</ul>
-								</article>
+								
 								<article>
 									<header>
 										
